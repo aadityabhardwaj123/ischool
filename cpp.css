@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    height: 100vh;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.upper-Box{
+    border: 3px dotted black;
+}
+.box1{
+    border: 1px solid red;
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    /* transform: translate(12% , 10%); */
+    /* transform: translateY(-100px); */
+    /* transform: translateX(-100px); */
+    transform: scaleX(1);
+    
+}
